@@ -1,5 +1,5 @@
 test:
   pre:
-    - npm install -g karma
+    - npm install -g
   override:
     - karma start karma.conf.js --single-run
